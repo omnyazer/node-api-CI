@@ -16,3 +16,5 @@ describe('Test the /status path', () => {
     expect(response.body).toEqual({ status: 'API is running' });
   });
 });
+
+
